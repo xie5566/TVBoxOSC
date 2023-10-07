@@ -29,7 +29,7 @@ public class XWalkUtils {
     }
 
     public static String downUrl() {
-        return String.format("https://agit.ai/524187805/TVBox/raw/branch/master/XWalkView/crosswalk-apks-23.53.589.4-arm.zip", getRuntimeAbi(), getRuntimeAbi());
+        return String.format("http://10.1.1.37:8080/crosswalk-apks-23.53.589.4-arm.zip", getRuntimeAbi(), getRuntimeAbi());
     }
 
     public static String saveZipFile() {
